@@ -1,0 +1,25 @@
+name: InformationShit
+version: @version@
+main: me.mi0.informationshit.InformationShit
+api-version: 1.16
+prefix: InfoShit
+authors: [mi0]
+description: Gives information obv
+
+commands:
+  stopinfo:
+    description: stopstheinfo
+    usage: just type the command
+  invsee:
+    description: opens players inventory
+    usage: if u cant use the command u dont deserve it!
+    permission: infoshit.invsee
+  link:
+    description: links item
+    usage: write it pls
+
+
+permissions:
+  infoshit.invsee:
+    description: Allows you to kick a user
+    default: op
